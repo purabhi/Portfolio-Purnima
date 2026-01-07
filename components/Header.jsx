@@ -29,14 +29,14 @@ const Header = () => {
     whileInView={{y: 0, opacity: 1}}
     transition={{duration: 0.8, delay: 0.5}}
     className='text-3xl sm:text-6xl lg:text-[66px] font-Ovo'>
-        Full Stack web developer</motion.h1>
+        Frontend developer</motion.h1>
 
         <motion.p
         initial={{opacity: 0}}
         whileInView={{opacity: 1}}
         transition={{duration: 0.6, delay: 0.7}}
         className='max-w-2xl mx-auto font-Ovo'>
-        Full Stack Developer with 3+ years of experience in web development with a strong passion for building user-friendly and high-performance websites and applications. 
+        Frontend Developer with 3+ years of experience in web development with a strong passion for building user-friendly and high-performance websites and applications. 
         </motion.p>
 
         <div className='flex flex-row gap-4 mt-4'>
@@ -56,13 +56,13 @@ const Header = () => {
         <div className='flex flex-col justify-center sm:flex-row items-center mt-10'>
             
 
-            <motion.a 
+            {/* <motion.a 
             initial={{y: 30, opacity: 0}}
             whileInView={{y: 0, opacity: 1}}
             transition={{duration: 0.6, delay: 1.2}}
             href="/Purnima-Singh-CV.pdf" download
             className='px-10 py-3 border rounded-full border-gray-500 flex items-center gap-2 bg-white  dark:text-black'>
-                My CV <Image src={assets.download_icon} alt='' className='w-4'/></motion.a>
+                My CV <Image src={assets.download_icon} alt='' className='w-4'/></motion.a> */}
         </div>
       </div>
 
