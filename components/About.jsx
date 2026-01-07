@@ -36,7 +36,7 @@ const About = ({isDarkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className=''>
                 <p className='mb-10 max-w-4xl font-Ovo text-justify'
-                >I am an experienced Full Stack Web Developer with professional expertise in the web development. I specialize in collaborating with design and product teams to deliver seamless user experiences. My focus is on optimizing performance, enhancing user engagement, and ensuring that every project meets and exceeds client expectations.</p>
+                >I am an experienced Frontend Developer with professional expertise in the web development. I specialize in collaborating with design and product teams to deliver seamless user experiences. My focus is on optimizing performance, enhancing user engagement, and ensuring that every project meets and exceeds client expectations.</p>
 
                 <motion.ul
                 initial={{opacity: 0}}
